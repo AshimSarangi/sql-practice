@@ -1,3 +1,3 @@
 /* Write your T-SQL query statement below */
-SELECT firstName, lastName, city, state FROM person p LEFT JOIN Address a 
-ON p.personId = a.personId
+SELECT P.firstname, P.lastname, A.city, A.state
+FROM Person P LEFT JOIN Address A ON P.personId = A.personId 
